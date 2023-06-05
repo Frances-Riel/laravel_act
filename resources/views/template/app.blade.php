@@ -23,12 +23,11 @@
     <body class="antialiased">
         <header>
             <nav>
-                <a href="{{route('/')}}">welcome</a>
+                <a href="{{route('home')}}">home</a>
                 <a href="{{route('profile')}}">profile</a>
                 <a href="{{route('Tasks')}}">Tasks</a>
-                <a href="{{route('animation')}}">Animation</a>
+                <a href="{{route('animation')}}">animation</a>
                 <a href="{{route('contact_us')}}">contact_us</a>
-    
             </nav>
         </header>
     </body>
